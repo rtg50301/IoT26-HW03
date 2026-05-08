@@ -9,7 +9,7 @@ pir = MotionSensor(4)
 
 camera = Picamera2()
 
-# No preview since SSH does not support GUI.
+# Camera preview
 config = camera.create_preview_configuration()
 camera.configure(config)
 
